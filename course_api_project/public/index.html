@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Manage Your Courses</h1>
+
+    <div id="courses-container">
+        <!-- Courses will be injected here dynamically -->
+    </div>
+    <br>
+    <h2>Add a New Course</h2>
+    <form id="add-course-form">
+        <input type="text" id="title" placeholder="Course Title" required>
+        <input type="text" id="description" placeholder="Course Description" required>
+        <input type="text" id="duration" placeholder="Course Duration" required>
+        <button type="submit">Add Course</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
