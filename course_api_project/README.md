@@ -43,7 +43,7 @@ To get a local copy up and running follow these simple steps.
 2. **Install the dependencies
    ```bash
    npm install
-3. 2. **Start the server
+3. **Start the server
    ```bash
    npm start
    The API will be running on http://localhost:3000.
